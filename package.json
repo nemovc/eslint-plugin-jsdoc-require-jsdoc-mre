@@ -1,0 +1,20 @@
+{
+  "name": "eslint-plugin-jsdoc-require-jsdoc-mre",
+  "version": "1.0.0",
+  "description": "Minimum Repro for issue with eslint-plugin-jsdoc",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix ./",
+    "reset": "git checkout -- index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "eslint-plugin-jsdoc": "^15.11.1"
+  }
+}
